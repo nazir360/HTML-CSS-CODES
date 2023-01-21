@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:sans-serif;
+  font-weight:500;
+  font-size:16px;
+  color:#000000;
+  background:#4123
+}
+header{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+display:flex;
+justify-content:space-between;
+}
+@media (max-width: 600px) {
+flex-direction: ;
+}
+
+#nav-bar{
+  list-style:none;
+}
+#nav-bar li{
+  display:inline-block;
+  padding:0px 20px;
+}
+#nav-bar li a{
+  transition:all 0.3s ease 0s;
+  text-decoration:none;
+  font-size:20px;
+  color:#000;
+}
+#nav-bar li a:hover{
+  color: #0af;
+}
+.space{
+  margin:40px 0px;
+}
+#hero{
+  align-items:center;
+}
+#hero h2 {
+  text-align:center;
+  font-weight:700;
+}
+#form{
+  align-items:center;
+  justify-content:center;
+}
+#email{
+    margin:20px 38%;
+    padding:7px 90px ;
+}
+#submit{
+  margin:0px 43%;
+  padding:4px 10px;
+  background:#e4b000;
+  font-weight:1000;
+  font-size:30px;
+}
+#submit:hover{
+  border-color: #0af;
+  color:#fff;
+}
+#icon{
+
+}
+#text h2{
+  margin:0px 25%;
+  font-size: 22px;
+  font-weight:800;
+}
+#text p{
+  margin:0px 25%;
+  font-size: 16px;
+  font-weight:500;
+}
+#video{
+  width:500px;
+  height:400px;
+  margin:10px 29%;
+}
+#pricing{
+  display:flex;
+}
+.product{
+  width:390px;
+  height:auto;
+  border: 1px solid black;
+  padding:0px;
+  justify-content:space-between;
+  margin:10px 50px;
+  overflow:hidden;
+  box-shadow: 0px 0px 0px 1px gray;
+} 
+#level{
+  text-align:center;
+  font-size:19px;
+  font-weight:700;
+  background:#1123;
+  background-size:fill;
+  margin:0px -50px;
+  padding:20px 0px;
+  
+}
+#pricing h2{
+  text-align:center;
+  font-size:20px;
+  font-weight:800;
+}
+#pricing ul, li{
+  text-align:center;
+  font-size:16px;
+  font-weight:600;
+  text-decoration:none;
+  margin:10px 30px;
+  list-style:none;
+}
+.btn{
+    margin:15px 30%;
+  padding:4px 10px;
+  background:#e4b000;
+  border-color:#e4b000;
+  font-weight:100;
+  font-size:30px;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 0px 0px 0px 1px  black;
+}
+.btn:hover{
+  border-color: #0af;
+  color:#fff;
+}
+footer{
+  background:#1123;
+  list-style:none;
+}
+footer ul, li{
+  display:flex;
+  justify-content:right;
+  padding:0px 10px;
+  font-size:20px;
+  font-weight:600;
+  }
+footer a{
+  color:black;
+}
+footer a:hover{
+  color:#0af;
+}
+ footer p{
+   display:flex;
+  font-size:16px;
+  font-weight:500;
+  justify-content:right;
+ }

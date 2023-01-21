@@ -1,0 +1,79 @@
+:root{
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Montserrat;
+    font-size: 15px;
+    background-color: var(--White);
+    margin: 50px 50px 50px 30px;
+}
+.container{
+    width: 50%;
+    height: 60vh;
+    background: var(--Cream);
+    align-items: center;
+    align-content: center;
+    border-radius: 4%;
+    box-shadow: inset #234;
+}
+.card{
+    display:flex;
+}
+.img img{
+    width: 27vw;
+    height: 60vh;
+    border-radius: 4%;
+}
+.text p{
+    font-style: bold;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px auto;
+}
+.text h1{
+    font-size: 30px;
+    font-family: Fraunces;
+    font-weight: 600; 
+    font-style: italic;
+    margin: 10px 30px;
+}span{
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: italic;
+}
+.price{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+    margin: 22px 30px;
+}
+.price p{
+    text-decoration: line-through;
+}
+.btn button{
+    background-color: var(--Dark-cyan);
+    color: #fff;
+    padding: 10px 80px;
+    margin: 20px 30px;
+    font-weight: 400;
+    font-size: 13px;
+    border-color: var(--Dark-cyan);
+}
+button:hover{
+    background-color: var(--Dark-grayish-blue);
+}

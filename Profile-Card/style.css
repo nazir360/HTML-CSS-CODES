@@ -1,0 +1,76 @@
+:root{
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%)
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    width:100%;
+    min-height:100vh;
+    background: var(--Dark-grayish-blue);
+}
+.container{
+    width:30%;
+    min-height:auto;
+    background: linear-gradient(rgba(68, 158, 231, 0.085) rgba(123, 58, 78, 0.5));
+    margin: 70px auto;
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card{
+    width:60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.cover-pic{
+    width: 500px;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0px -50px;
+    padding: 0px 41px;
+}
+.pic{
+    border-radius: 20%;
+    margin: -70px 100px 125px 130px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+.follow{
+    display: flex;
+    margin: 10px 50px;
+    justify-content:space-around;
+}
+.follow h2{
+    margin: 30px 20px;
+}
+.follow p{
+    margin-left: -50px; 
+}
+.footer button{
+    justify-content: center;
+    align-items: center;
+    padding: 6px 162px;
+    font-size: larger;
+    font-weight: 700;
+    background: #444;
+    border:#444;
+}
+.footer button:hover{
+    background: #55cdebe1
+}
+.footer button:active{
+    background: #55ebc6e1
+}
